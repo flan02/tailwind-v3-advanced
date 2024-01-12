@@ -25,6 +25,12 @@ export default {
       width: {
         150: "1000px",
       },
+      screens: {
+        tablet: "900px",
+        "3xl": "1920px",
+        "4xl": "2560px",
+        "5xl": "3840px",
+      },
     },
   },
   plugins: [],
