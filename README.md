@@ -26,3 +26,8 @@ apartado de extends
 { 
     small: '680px',
 }
+
+# Excelentes librerias frontend para react efecto parallax, componentes gratis tailwind y float elements
+- Atropos JS: https://atroposjs.com/
+- Floting UI: https://floating-ui.com/
+- UI Verse: https://uiverse.io/
