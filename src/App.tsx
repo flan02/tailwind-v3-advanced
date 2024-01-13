@@ -10,7 +10,12 @@ import DevelopTools from './components/util/DevelopTools'
 //import Chapter7 from './components/chapters/Chapter7' //* Grid
 //import Chapter8 from './components/chapters/Chapter8' //* Dark mode Tailwind (crear componente)
 //import Chapter9 from './components/chapters/Chapter9'  //* Propiedades peer y accent color
-import GridBase from './components/chapters/GridBase'
+//import GridBase from './components/chapters/GridBase'
+//import GridBase2 from './components/chapters/GridBase2'
+//import GridBase3 from './components/chapters/GridBase3'
+import GridBase4 from './components/chapters/GridBase4'
+
+//import TailwindGridDocs from './components/chapters/TailwindGridDocs'
 //import ButtonHoverShining from './components/util/ButtonHoverShining'
 
 function App() {
@@ -26,7 +31,11 @@ function App() {
       {/* <Chapter7 /> */}
       {/* <Chapter8 /> */}
       {/* <Chapter9 /> */}
-      <GridBase />
+      {/*<TailwindGridDocs />*/}
+      {/*<GridBase />*/}
+      {/*<GridBas2 />*/}
+      {/*<GridBas3 />*/}
+      <GridBase4 />
 
       <DevelopTools />
     </>
