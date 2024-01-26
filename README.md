@@ -31,3 +31,8 @@ apartado de extends
 - Atropos JS: https://atroposjs.com/
 - Floting UI: https://floating-ui.com/
 - UI Verse: https://uiverse.io/
+
+# Herramientas online para enriquecer el ecosistema de Tailwind
+https://www.tailwindtoolbox.com/
+https://gradient-designer.csspost.com/
+https://transform.tools/css-to-tailwind
