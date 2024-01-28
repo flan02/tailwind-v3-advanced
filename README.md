@@ -36,3 +36,6 @@ apartado de extends
 https://www.tailwindtoolbox.com/
 https://gradient-designer.csspost.com/
 https://transform.tools/css-to-tailwind
+https://tw-elements.com/docs/react/integrations/next-integration/
+https://tailwindui.com/components
+https://tailwindcomponents.com/
