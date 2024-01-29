@@ -10,7 +10,7 @@ const HOUR = MINUTE * 60;
 const DAY = HOUR * 24;
 
 const ShiftingCountdown = () => {
-  const intervalRef = useRef(null);
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   const [remaining, setRemaining] = useState({
     days: 0,
@@ -57,7 +57,7 @@ const ShiftingCountdown = () => {
   );
 };
 
-const CountdownItem = ({ num, text }) => {
+const CountdownItem = ({ num, text }: { num: number; text: string }) => {
   return (
     <div className="font-mono w-1/4 h-24 md:h-36 flex flex-col gap-1 md:gap-2 items-center justify-center border-r-[1px] border-slate-200">
       <div className="w-full text-center relative overflow-hidden">
