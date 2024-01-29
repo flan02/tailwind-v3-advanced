@@ -1,3 +1,6 @@
+# Sintaxis markdown al completo
+https://markdown.es/sintaxis-markdown
+
 # tailwind-v3-advanced
 Intensity short projetcs using tailwind
 
@@ -34,8 +37,15 @@ apartado de extends
 
 # Herramientas online para enriquecer el ecosistema de Tailwind
 https://www.tailwindtoolbox.com/
+
 https://gradient-designer.csspost.com/
+
 https://transform.tools/css-to-tailwind
+
 https://tw-elements.com/docs/react/integrations/next-integration/
+
 https://tailwindui.com/components
+
 https://tailwindcomponents.com/
+
+https://www.hover.dev/components
