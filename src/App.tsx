@@ -1,10 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import './App.css'
-import DevelopTools from './components/util/DevelopTools'
 
-import GridBase from './components/chapters/GridBase'
-import GridBase2 from './components/chapters/GridBase2'
-import GridBase3 from './components/chapters/GridBase3'
+import Cn from './components/chapters/Cn'
 
 
 //import TailwindGridDocs from './components/chapters/TailwindGridDocs'
@@ -16,10 +13,11 @@ function App() {
   return (
     <>
 
-      <GridBase />
+      {/*<GridBase />*/}
+      {/*<DevelopTools />*/}
 
-
-      <DevelopTools />
+      {/* utility fc popularized by shadcnUI */}
+      <Cn />
     </>
   )
 }
