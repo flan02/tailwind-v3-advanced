@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { motion, useMotionValue } from "framer-motion";
 
 const imgs = [
@@ -81,7 +81,7 @@ export const SwipeCarousel = () => {
   );
 };
 
-const Images = ({ imgIndex }) => {
+const Images = ({ imgIndex }: { imgIndex: number }) => {
   return (
     <>
       {imgs.map((imgSrc, idx) => {
@@ -105,7 +105,13 @@ const Images = ({ imgIndex }) => {
   );
 };
 
-const Dots = ({ imgIndex, setImgIndex }) => {
+const Dots = ({
+  imgIndex,
+  setImgIndex,
+}: {
+  imgIndex: number;
+  setImgIndex: Dispatch<SetStateAction<number>>;
+}) => {
   return (
     <div className="mt-4 flex w-full justify-center gap-2">
       {imgs.map((_, idx) => {
