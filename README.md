@@ -49,3 +49,5 @@ https://tailwindui.com/components
 https://tailwindcomponents.com/
 
 https://www.hover.dev/components
+
+https://bennettfeely.com/clippy/
